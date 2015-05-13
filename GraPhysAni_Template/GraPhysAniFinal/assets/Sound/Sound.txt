@@ -1,0 +1,7 @@
+#SOUND Lab.mp3
+#SOUND Rustle.mp3
+#SOUND BuzzFadeIn.mp3
+#SOUND BuzzFadeOut.mp3
+#SOUND hahaha.mp3
+#SOUND Pain.mp3
+#END

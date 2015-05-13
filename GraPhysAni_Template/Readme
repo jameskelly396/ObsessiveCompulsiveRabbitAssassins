@@ -1,0 +1,81 @@
+GraPhysAni Project 3
+By: James Kelly and Eric Marcinowski
+
+The improvements we've made to our project are as follows:
+
+***Lighting***
+Our lights are no longer determined within the the program itself; they can all be load via the XML reader and can even change their
+brightness, colour, range, attenuation, etc.
+
+***Z-Sorting***
+Our Z-sort method was.....well, inefficient. The new method that we have implemented gives the program a bigger boost in performance (a whole 15 frames, WOW!)
+It may not be 60fps when looking at all objects at once, but hey, who wants that anyway? It's not as cinematic, right? *Citation needed*
+
+***Physics***
+The whole physics section has been entirely reworked from Physics 2; It now uses PhysProp and CMesh as part of the gaemObject to do
+collision detection. We've also incorporated a "bounce" mechanic when the ship (Viper) collides with the Environment (City, in this case)
+
+Controls:
+r - resets camera to starting position
+b - write the object's information to Scene2.txt
+1 - switch between the Game Running, Light Editor, or Object Editor
+4 - draw the hitboxes used in our physics information
+m - generate particles
+t/T - toggle between which light/object is currently being focused on
+h - locks the "lightball" onto the location of the current light (this must be combined with the f key to follow the selected light)
+p - print current light information
+c - print camera and current object information
+
+(If the camera is not following the object which can be toggled on and off with the f key, the following buttons move the camera independently)
+Camera Controls: 
+w - move camera forward
+s - move camera backward 
+a - move camera left 
+d - move camera right 
+q - move camera up 
+e - move camera down
+shift + a - "look" left 
+shift + d - "look" right 
+shift + e - "look" up 
+shift + q - "look" down 
+f - follow targeted object (press again to not follow) 
+
+Ship Controls
+(if the camera is following the ship then they instead move the ship, 
+these directions change if the player has been rotated with the alternate ship controls)
+w - move forward
+s - move backward 
+a - move left 
+d - move right 
+e - move up 
+q - move down 
+f - follow targeted object (press again to not follow) 
+space - stop velocity
+
+Alternate Ship Controls
+(these controls allow the player to rotate the ship and have it travel in the direction it is face, similar to actually flying a ship)
+2 - move in the direction the ship is facing
+3 - move in the direction the ship is facing (aka "backing up")
+left/right arrow key - turn ship left or right
+up/down arrow key - turn ship down or up
+page up/page down - tilt ship sideways
+space - stop velocity and rotations of the ship
+
+
+Light Editing mode controls: (these controls only work if the game state is set to editing lights which can be changed by pressing '1'
+Camera Controls: Same as ship controls it depends if the camera is focused on the light (you must press both 'f' and 'h' keys for this to work with lights)
+
+Light controls
+these directions change if the player has been rotated with the alternate ship controls)
+w - move forward
+s - move backward 
+a - move left 
+d - move right 
+e - move up 
+q - move down 
+u/U - constant attenuation
+i/I - linear attenuation
+o/O - quadratic attenuation
+j/J - red light color
+k/K - green light color
+l/L - blue light color

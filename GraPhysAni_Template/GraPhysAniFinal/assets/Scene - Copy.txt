@@ -1,0 +1,129 @@
+<Model>
+	<Type> Skybox </Type>
+	<PlyFile> Isoshphere_xyz_nxyz.ply </PlyFile>
+	<SkyboxTexture>
+		<Name> Skybox </Name>
+		<Texture> BluePurpleSpaceBox_right1.bmp </Texture>
+		<Texture> BluePurpleSpaceBox_left2.bmp </Texture>
+		<Texture> BluePurpleSpaceBox_top3.bmp </Texture>
+		<Texture> BluePurpleSpaceBox_bottom4.bmp </Texture>
+		<Texture> BluePurpleSpaceBox_front5.bmp </Texture>
+		<Texture> BluePurpleSpaceBox_back6.bmp </Texture>
+	</SkyboxTexture>
+	<Rotation> 0.0 0.0 0.0 </Rotation>
+	<Scale> 1000.0 </Scale>
+	<Position> 0.0 0.0 0.0 </Position>
+	<Colour> 0.75 0.5 0.3 </Colour>
+	<IsSkybox> True </IsSkybox>
+</Model>
+<Model>
+	<Type> Cube </Type>
+	<PlyFile> floor.ply </PlyFile>
+	<Texture> Brick_Small.bmp </Texture>
+	<Rotation> 0.0 0.0 0.0 </Rotation>
+	<Scale> 1.0 </Scale>
+	<Colour> 0.75 0.5 1.0 </Colour>
+	<Position> 2.0 3.0 2.0 </Position>
+	<IsMaze> True </IsMaze>
+</Model>
+<Model>
+	<Type> Sphere </Type>
+	<PlyFile> sphere_UV_xyz.ply </PlyFile>
+	<Texture> explosion.bmp </Texture>
+	<Rotation> 0.0 0.0 0.0 </Rotation>
+	<Scale> 1.0 </Scale>
+	<Position> 100.0 478.0 687.0 </Position>
+	<Colour> 0.75 0.5 0.3 </Colour>
+	<IsLightBall> True </IsLightBall>
+	<Transparency> 1.0 </Transparency>
+</Model>
+<Model>
+	<Type> Particle </Type>
+	<PlyFile> 1x1_6_Star_2_Sided.ply </PlyFile>
+	<Texture> Dark_Nova2.bmp </Texture>
+	<Rotation> 0.0 0.0 0.0 </Rotation>
+	<Scale> 0.1 </Scale>
+	<Colour> 0.75 0.5 0.3 </Colour>
+	<Position> 0.0 0.0 0.0 </Position>
+	<IsParticle> True </IsParticle>
+</Model>
+<Model>
+	<Type> Bunny </Type>
+	<PlyFile> bun_zipper_res4_xyz.ply </PlyFile>
+	<Texture> ViperMKVII.bmp </Texture>
+	<Texture> Brick_Small.bmp </Texture>
+	<Blend> 4 </Blend>
+	<Rotation> 0.0 0.0 0.0 </Rotation>
+	<Scale> 1.0 </Scale>
+	<Position> 0.0 4.0 0.0 </Position>
+	<Transparency> 1.0 </Transparency>
+	<IsPlayer> True </IsPlayer>
+</Model>
+<Model>
+	<Type> Bunny </Type>
+	<PlyFile> bun_zipper_res4_xyz.ply </PlyFile>
+	<Texture> Galactica-Texture_(square)_rot_180_cw.bmp </Texture>
+	<Rotation> 0.0 0.0 0.0 </Rotation>
+	<Scale> 1.0 </Scale>
+	<Position> 4.0 0.0 0.0 </Position>
+</Model>
+<Light>
+	<Position> 224.0 328.0 244.0 </Position>
+</Light>
+<Light>
+	<Position> 224.0 337.0 244.0 </Position>
+</Light>
+<Light>
+	<Position> 370.0 424.0 316.0 </Position>
+</Light>
+<Light>
+	<Position> 652.0 414.0 465.0 </Position>
+</Light>
+<Light>
+	<Position> 432.0 440.0 439.0 </Position>
+</Light>
+<Light>
+	<Position> 153.0 380.0 435.0 </Position>
+</Light>
+<Light>
+	<Colour> 0.4 1.0 0.4 </Colour>
+	<Position> 302.0 406.0 578.0 </Position>
+</Light>
+<Light>
+	<Colour> 0.4 0.4 1.0 </Colour>
+	<Position> 416.0 382.0 752.0 </Position>
+</Light>
+<Light>
+	<Colour> 1.0 1.0 0.4 </Colour>
+	<Position> 572.0 384.0 572.0 </Position>
+</Light>
+<Light>
+	<Colour> 0.6 0.3 1.0 </Colour>
+	<Position> 385.0 440.0 337.0 </Position>
+</Light>
+<Light>
+	<Colour> 1.0 1.0 0.4 </Colour>
+	<Position> 323.0 401.0 363.0 </Position>
+</Light>
+<Light>
+	<Colour> 1.0 1.0 0.4 </Colour>
+	<Position> 346.0 408.0 558.0 </Position>
+</Light>
+<Light>
+	<Position> 370.0 424.0 316.0 </Position>
+</Light>
+<Light>
+	<Position> 652.0 414.0 465.0 </Position>
+</Light>
+<Light>
+	<Colour> 0.4 0.5 1.0 </Colour>
+	<Position> 432.0 440.0 439.0 </Position>
+</Light>
+<Light>
+	<Colour> 1.0 0.3 0.3 </Colour>
+	<Position> 153.0 380.0 435.0 </Position>
+</Light>
+<Light>
+	<Colour> 1.0 1.0 0.4 </Colour>
+	<Position> 270.0 380.0 453.0 </Position>
+</Light>
